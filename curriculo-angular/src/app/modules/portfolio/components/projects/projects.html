@@ -1,1 +1,19 @@
-<p>projects works!</p>
+<div class="cointainer">
+    <h2>Projetos Desenvolvidos</h2>
+
+    <ul>
+        @for(item of arrayProjects(); track item){
+        <li>
+            <button>
+                <img
+                    [src]="item.scr"
+                    [alt]="item.alt"
+                    [attr.with]="item.with"
+                    [attr.height]="item.height"
+                    loading="lazy"
+                />
+            </button>
+        </li>
+        }
+    </ul>
+</div>
