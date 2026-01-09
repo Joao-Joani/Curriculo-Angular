@@ -13,14 +13,14 @@ export class Experiences {
         strong: "Bacharelado em Engenharia Elétrica / UNIFEI",
         p: " Mar 2024 - Presente"
       },
-      text: "Estudante de Bacharelado em Engenharia Elétrica na Universidade Federal de Itajubá (UNIFEI), com foco em sistemas elétricos, eletrônica e automação."
+      text: "<p>Estudante de Bacharelado em Engenharia Elétrica na Universidade Federal de Itajubá (UNIFEI), com foco em sistemas elétricos, eletrônica e automação.</p>"
     },
     {
       summary: {
         strong: "Trainee Desktop / Asimov Jr",
         p: " Nov 2025 - Presente"
       },
-      text: "Atuando como Trainee na Asimov Jr, empresa júnior de consultoria em tecnologia da informação da UNIFEI. Responsável por desenvolver soluções de software para clientes, focando em aplicações desktop."
+      text: "<p>Atuando como Trainee na Asimov Jr, empresa júnior de consultoria em tecnologia da informação da UNIFEI. Responsável por desenvolver soluções de software para clientes, focando em aplicações desktop.</p>"
     },
   ]);
 }
