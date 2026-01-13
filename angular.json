@@ -37,7 +37,6 @@
           "configurations": {
             "production": {
               "baseHref": "/curriculo-angular/",
-              "deployUrl": "/curriculo-angular/",
               "budgets": [
                 {
                   "type": "initial",
