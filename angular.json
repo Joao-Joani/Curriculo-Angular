@@ -36,7 +36,8 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/curriculo-angular/",
+              "baseHref": "/Curriculo-Angular/",
+              "deployUrl": "/Curriculo-Angular/",
               "budgets": [
                 {
                   "type": "initial",
@@ -75,7 +76,10 @@
           "builder": "@angular/build:unit-test"
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "dir": "dist/curriculo-angular/browser"
+          }
         }
       }
     }
